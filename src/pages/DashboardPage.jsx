@@ -33,6 +33,7 @@ export default function DashboardPage({ onLogout }) {
         <div>
           <h1>Dashboard</h1>
           <p>Authorization summary for payer review.</p>
+          <></>
         </div>
         <div className="top-bar-actions">
           <button className="action-btn secondary-btn" onClick={() => navigate("/requests")}>Requests</button>
